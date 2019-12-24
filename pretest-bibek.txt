@@ -1,0 +1,17 @@
+void main()
+{
+	char A[] = "HELLO WORLD";
+	char B[];
+	int C,I=0,V=0;
+	char D;
+	C = A.length();
+	while(c!=0)
+	{
+		D= A[C];
+		B[I] = D;
+		if(D == 'A'||D == 'a'||D == 'E'||D == 'e'||D == 'I'||D == 'i'||D == 'O'||D == 'o'||D == 'U'||D == 'u')
+			V++;
+	}
+	printf("REVERSE STRING = " + B);
+	printf("NO OF VOWELS = " + V);
+}
